@@ -61,6 +61,7 @@ Credenciais padrão (em application.properties):
 ### Criar aluno
 
 POST http://localhost:8080/alunos
+
 Body (JSON):
 
 {
