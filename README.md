@@ -50,7 +50,7 @@ Credenciais padrão (em application.properties):
 ### spring.datasource.password=1234
 
 ## 📨 Testando com Postman
-###🔸 Criar aluno
+### Criar aluno
 
 POST http://localhost:8080/alunos
 Body (JSON):
@@ -61,8 +61,8 @@ Body (JSON):
   "email": "joao@email.com"
 }
 
-##✅ Status do projeto
-###🚧 Em desenvolvimento — atualmente implementado:
+## ✅ Status do projeto
+### 🚧 Em desenvolvimento — atualmente implementado:
 
 ✅ Criar aluno (POST)
 
@@ -72,4 +72,4 @@ Body (JSON):
 
 ⏹ Listagem e busca de alunos (GET)
 
-
+## 📸 Registros de funcionamento
