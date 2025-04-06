@@ -73,3 +73,7 @@ Body (JSON):
 ⏹ Listagem e busca de alunos (GET)
 
 ## 📸 Registros de funcionamento
+
+![DBeaverPOST](https://github.com/user-attachments/assets/bc6277f7-4286-4c95-b705-d208d268d45b)
+![InsomniaPOST](https://github.com/user-attachments/assets/94199810-0d6c-47f3-b002-01c720e051ed)
+
