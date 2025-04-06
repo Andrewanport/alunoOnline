@@ -61,8 +61,8 @@ Body (JSON):
   "email": "joao@email.com"
 }
 
-## ✅ Status do projeto
-### 🚧 Em desenvolvimento — atualmente implementado:
+## Status do projeto
+### 🚧 Em desenvolvimento:
 
 ✅ Criar aluno (POST)
 
