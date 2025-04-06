@@ -45,9 +45,9 @@ Certifique-se de que o PostgreSQL está rodando e que o banco aluno_online foi c
 
 Credenciais padrão (em application.properties):
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/aluno_online
-spring.datasource.username=postgres
-spring.datasource.password=1234
+### spring.datasource.url=jdbc:postgresql://localhost:5432/aluno_online
+### spring.datasource.username=postgres
+### spring.datasource.password=1234
 
 ## 📨 Testando com Postman
 ###🔸 Criar aluno
