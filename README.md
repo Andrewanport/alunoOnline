@@ -65,9 +65,9 @@ POST http://localhost:8080/alunos
 Body (JSON):
 
 {
-  "nome": "João da Silva",
-  "cpf": "12345678900",
-  "email": "joao@email.com"
+  "nome": "André",
+  "cpf": "111.111.111-11",
+  "email": "andre@gmail.com"
 }
 
 ---
