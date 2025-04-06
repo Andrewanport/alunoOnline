@@ -23,16 +23,6 @@ public class AlunoController {
 
     }
 
-    @DeleteMapping
-    public void excluirAluno(){
-
-    }
-
-    @PatchMapping
-    public void alterarParteAluno(){
-
-    }
-
 }
 
 // Postman e Insominia = Clientes HTTP para testar a aplicação backend
