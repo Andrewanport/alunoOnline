@@ -76,7 +76,5 @@ Body (JSON):
 ![{417AF8C5-5021-4F4C-B652-182F8AF4B956}](https://github.com/user-attachments/assets/f6c183f0-8f3f-4591-bc03-53489ca70236)
 ![{F24F0984-CE23-4E30-B0B2-B85C23F56646}](https://github.com/user-attachments/assets/1dcb23f3-5f16-4ad6-b542-2e139fc34a44)
 
-![InsomniaPOST](https://github.com/user-attachments/assets/94199810-0d6c-47f3-b002-01c720e051ed)
-![DBeaverPOST](https://github.com/user-attachments/assets/bc6277f7-4286-4c95-b705-d208d268d45b)
 
 
