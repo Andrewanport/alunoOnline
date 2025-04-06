@@ -6,7 +6,7 @@
 
 ## 📚 Descrição
 
-O **Aluno Online** é uma API RESTful simples voltada para o gerenciamento de alunos, com operações básicas como criação de registros. O projeto foi estruturado em camadas (Controller, Service e Repository) e utiliza Spring Boot com integração ao banco de dados PostgreSQL.
+O **Aluno Online** é uma API RESTful voltada para o gerenciamento de alunos, com operações básicas como criação de registros. O projeto foi estruturado em camadas e utiliza Spring Boot com integração ao banco de dados PostgreSQL.
 
 ---
 
