@@ -87,10 +87,11 @@ Body (JSON):
 
 ## 📸 Registros de funcionamento
 ### Criar Aluno:
-![{F24F0984-CE23-4E30-B0B2-B85C23F56646}](https://github.com/user-attachments/assets/1dcb23f3-5f16-4ad6-b542-2e139fc34a44)
+![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
 ### Aluno criado no banco de dados:
 ![{417AF8C5-5021-4F4C-B652-182F8AF4B956}](https://github.com/user-attachments/assets/f6c183f0-8f3f-4591-bc03-53489ca70236)
 ### Listar Alunos:
-![{72BEB554-25E9-4EA2-A5C6-B06FDB4DAB9C}](https://github.com/user-attachments/assets/6cfcb415-2fb1-4d9e-ad02-7b4400e5f832)
+![{37196748-5F37-4C69-B501-06332CCF7751}](https://github.com/user-attachments/assets/21485694-bc8f-49f2-9eb7-c803b0b94023)
 ### Buscar Aluno por ID:
-![{0BEFAB0D-70F2-48B3-9FC8-4EEB927D1CD3}](https://github.com/user-attachments/assets/94d8214c-55df-4ee5-a1dd-6574a2352085)
+![{6A11011A-3AC6-43BD-B0A7-6B9AE08A6CD9}](https://github.com/user-attachments/assets/b1030359-1b77-4c0b-bc36-6beae6f208b4)
+
