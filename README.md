@@ -88,13 +88,15 @@ Body (JSON):
 ---
 
 ## 📸 Registros de funcionamento
-### Criar Aluno:
+### Criar Aluno (Insomnia):
 ![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
-### Aluno criado no banco de dados:
+### Aluno criado (DBeaver):
 ![{5F902693-E541-44BE-879B-8BD9FFACD0C0}](https://github.com/user-attachments/assets/7af05459-7a1b-452c-8785-a03873a6ae8c)
-### Listar Alunos:
+### Listar Alunos (Insomnia):
 ![{37196748-5F37-4C69-B501-06332CCF7751}](https://github.com/user-attachments/assets/21485694-bc8f-49f2-9eb7-c803b0b94023)
-### Buscar Aluno por ID:
+### Listar Alunos (DBeaver):
+![{652B3287-0211-4521-A958-ACAED9788E90}](https://github.com/user-attachments/assets/68f295c5-b5da-4141-91ef-a78da5cd5318)
+### Buscar Aluno por ID (Insomnia):
 ![{6A11011A-3AC6-43BD-B0A7-6B9AE08A6CD9}](https://github.com/user-attachments/assets/b1030359-1b77-4c0b-bc36-6beae6f208b4)
 ### Buscar Aluno por ID (DBeaver):
 ![{5DC075DF-D8DF-4813-AD54-C183EFDE2E0B}](https://github.com/user-attachments/assets/673868b3-30a9-41b9-b50e-08ff452b9c6d)
