@@ -77,11 +77,13 @@ Body (JSON):
 
 ✅ Criar aluno (POST)
 
+✅ Listagem de todos alunos (GET)
+
+✅ Busca de alunos por ID (GET)
+
 ⏹ Excluir aluno (DELETE)
 
 ⏹ Atualização parcial (PATCH)
-
-⏹ Listagem e busca de alunos (GET)
 
 ---
 
