@@ -89,6 +89,7 @@ Body (JSON):
 ### Criar Aluno:
 ![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
 ### Aluno criado no banco de dados:
+![{5F902693-E541-44BE-879B-8BD9FFACD0C0}](https://github.com/user-attachments/assets/7af05459-7a1b-452c-8785-a03873a6ae8c)
 ![{417AF8C5-5021-4F4C-B652-182F8AF4B956}](https://github.com/user-attachments/assets/f6c183f0-8f3f-4591-bc03-53489ca70236)
 ### Listar Alunos:
 ![{37196748-5F37-4C69-B501-06332CCF7751}](https://github.com/user-attachments/assets/21485694-bc8f-49f2-9eb7-c803b0b94023)
