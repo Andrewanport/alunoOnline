@@ -77,17 +77,26 @@ Body (JSON):
 
 ✅ Criar aluno (POST)
 
+✅ Listagem de todos alunos (GET)
+
+✅ Busca de alunos por ID (GET)
+
 ⏹ Excluir aluno (DELETE)
 
 ⏹ Atualização parcial (PATCH)
 
-⏹ Listagem e busca de alunos (GET)
-
 ---
 
 ## 📸 Registros de funcionamento
-![{F24F0984-CE23-4E30-B0B2-B85C23F56646}](https://github.com/user-attachments/assets/1dcb23f3-5f16-4ad6-b542-2e139fc34a44)
-![{417AF8C5-5021-4F4C-B652-182F8AF4B956}](https://github.com/user-attachments/assets/f6c183f0-8f3f-4591-bc03-53489ca70236)
-
-
-
+### Criar Aluno (Insomnia):
+![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
+### Aluno criado (DBeaver):
+![{5F902693-E541-44BE-879B-8BD9FFACD0C0}](https://github.com/user-attachments/assets/7af05459-7a1b-452c-8785-a03873a6ae8c)
+### Listar Alunos (Insomnia):
+![{37196748-5F37-4C69-B501-06332CCF7751}](https://github.com/user-attachments/assets/21485694-bc8f-49f2-9eb7-c803b0b94023)
+### Listar Alunos (DBeaver):
+![{652B3287-0211-4521-A958-ACAED9788E90}](https://github.com/user-attachments/assets/68f295c5-b5da-4141-91ef-a78da5cd5318)
+### Buscar Aluno por ID (Insomnia):
+![{6A11011A-3AC6-43BD-B0A7-6B9AE08A6CD9}](https://github.com/user-attachments/assets/b1030359-1b77-4c0b-bc36-6beae6f208b4)
+### Buscar Aluno por ID (DBeaver):
+![{5DC075DF-D8DF-4813-AD54-C183EFDE2E0B}](https://github.com/user-attachments/assets/673868b3-30a9-41b9-b50e-08ff452b9c6d)
