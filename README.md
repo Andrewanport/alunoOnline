@@ -81,7 +81,7 @@ Body (JSON):
 
 ✅ Busca de alunos por ID (GET)
 
-⏹ Excluir aluno (DELETE)
+✅ Excluir aluno por ID (DELETE)
 
 ⏹ Atualização parcial (PATCH)
 
