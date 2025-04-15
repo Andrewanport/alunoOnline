@@ -102,5 +102,6 @@ Body (JSON):
 ![{5DC075DF-D8DF-4813-AD54-C183EFDE2E0B}](https://github.com/user-attachments/assets/673868b3-30a9-41b9-b50e-08ff452b9c6d)
 ### Deletar Aluno por ID (Insomnia):
 ![{64A9304E-C6E3-4A20-A485-8D207DA293D5}](https://github.com/user-attachments/assets/32fd18f8-af1c-40d0-978c-d10758124071)
+![{E87BF483-303D-49CA-A239-36ED8A9DD5B5}](https://github.com/user-attachments/assets/aad70fa1-d7f1-4428-a09e-4f7a32627e98)
 ### Aluno "Jorge" deletado (DBeaver):
 ![{BCFB1692-54F0-4498-9A1F-8D1244099F3D}](https://github.com/user-attachments/assets/b2f1a878-3f78-46f5-b8b4-2fcd1b2b02d7)
