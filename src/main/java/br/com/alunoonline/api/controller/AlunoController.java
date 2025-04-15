@@ -44,17 +44,15 @@ public class AlunoController {
 
     }
 
-
-    @DeleteMapping
-    public void excluirAluno(){
-
+    // Deletar alunos por id
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deletarAlunoPorId(@PathVariable Long id) {
+        alunoService.deletarAlunoPorId(id);
     }
 
-    @PatchMapping
-    public void alterarParteAluno(){
-
-    }
 
 }
 
 // Postman e Insominia = Clientes HTTP para testar a aplicação backend
+
