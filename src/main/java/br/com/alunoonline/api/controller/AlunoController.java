@@ -35,7 +35,7 @@ public class AlunoController {
 
     }
 
-    // Listar alunos por id
+    // Buscar alunos por id
     @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
     public Optional<Aluno> buscarAlunoPorId(@PathVariable long id){
