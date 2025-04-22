@@ -87,7 +87,7 @@ Body (JSON):
 
 ---
 
-## 📸 Registros de funcionamento
+## 📸 Registros de funcionamento (Aluno)
 ### Criar Aluno (Insomnia):
 ![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
 ### Aluno criado (DBeaver):
@@ -105,3 +105,28 @@ Body (JSON):
 ![{DBDF6916-0E1E-4C29-BEEB-D4ADC69BF146}](https://github.com/user-attachments/assets/b35133fb-9bbf-4e38-90fa-da8cfe0550c6)
 ### Aluno "Jorge" (ID: 2) deletado (DBeaver):
 ![{BCFB1692-54F0-4498-9A1F-8D1244099F3D}](https://github.com/user-attachments/assets/b2f1a878-3f78-46f5-b8b4-2fcd1b2b02d7)
+
+## 📸 Registros de funcionamento (Professor)
+### Criar Professor (Insomnia):
+![{3E4C5FD2-EFFB-4D86-A60A-D5DA6B4F1D31}](https://github.com/user-attachments/assets/78edf03b-bd19-4ccc-9050-448eae89ac7f)
+
+### Professor criado (DBeaver):
+![{2E40B3B8-D6A7-41EC-AF8C-7851DA195AEA}](https://github.com/user-attachments/assets/22958048-fec5-43ed-baa5-0b58191690fe)
+### Listar Professores (Insomnia):
+![{F63A0B71-EBE7-49CE-86D8-3174E834BB20}](https://github.com/user-attachments/assets/93cc7391-d040-44b1-9852-76727cc400c9)
+
+### Listar Professores (DBeaver):
+![{239BADC8-9B15-41A7-8FA3-F7FA1825ED28}](https://github.com/user-attachments/assets/2d7e40f3-52c0-45ed-a02e-e0fee99fc700)
+
+### Buscar Professor por ID (Insomnia):
+![{323C930C-DD3B-43E4-A1A5-332AB6E03628}](https://github.com/user-attachments/assets/b8cd8fde-3a4e-4c54-b5fd-8f718f01cf81)
+
+### Buscar Professor por ID (DBeaver):
+![{DDC9D264-25A0-4F50-8537-C7450DDB38CF}](https://github.com/user-attachments/assets/24cb3bed-7e64-4950-846a-bea9a93bd94d)
+
+### Deletar Professor por ID (ID: 14) (Insomnia):
+![{C615FFB8-97EB-4D7C-92D6-0442CEC80DE4}](https://github.com/user-attachments/assets/6a2daa51-be1c-424e-96c1-0ebeb98a97b9)
+
+### Professor (ID: 14) deletado (DBeaver):
+![{F9622A9B-414A-4073-A97B-5FC315DCC805}](https://github.com/user-attachments/assets/d24ec920-6394-4c40-b1dd-9623f68d4b9e)
+
