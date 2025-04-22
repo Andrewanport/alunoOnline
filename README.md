@@ -81,7 +81,7 @@ Body (JSON):
 
 ✅ Busca de alunos por ID (GET)
 
-⏹ Excluir aluno (DELETE)
+✅ Excluir aluno por ID (DELETE)
 
 ⏹ Atualização parcial (PATCH)
 
@@ -100,3 +100,8 @@ Body (JSON):
 ![{6A11011A-3AC6-43BD-B0A7-6B9AE08A6CD9}](https://github.com/user-attachments/assets/b1030359-1b77-4c0b-bc36-6beae6f208b4)
 ### Buscar Aluno por ID (DBeaver):
 ![{5DC075DF-D8DF-4813-AD54-C183EFDE2E0B}](https://github.com/user-attachments/assets/673868b3-30a9-41b9-b50e-08ff452b9c6d)
+### Deletar Aluno por ID (ID: 2) (Insomnia):
+![{E17C3A1D-27FE-4F7C-946F-FE6B812329B8}](https://github.com/user-attachments/assets/b00dc07d-54b1-4325-9cdd-517bfd389048)
+![{DBDF6916-0E1E-4C29-BEEB-D4ADC69BF146}](https://github.com/user-attachments/assets/b35133fb-9bbf-4e38-90fa-da8cfe0550c6)
+### Aluno "Jorge" (ID: 2) deletado (DBeaver):
+![{BCFB1692-54F0-4498-9A1F-8D1244099F3D}](https://github.com/user-attachments/assets/b2f1a878-3f78-46f5-b8b4-2fcd1b2b02d7)
