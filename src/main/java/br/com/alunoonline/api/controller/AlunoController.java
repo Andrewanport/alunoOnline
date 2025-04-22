@@ -51,8 +51,15 @@ public class AlunoController {
         alunoService.deletarAlunoPorId(id);
     }
 
+    // Atualizar alunos por ID
+    @PutMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void atualizarAlunoPorId(@PathVariable Long id, @RequestBody Aluno aluno){
 
+        alunoService.atualizarAlunoPorId(id, aluno);
+    }
 }
+
 
 // Postman e Insominia = Clientes HTTP para testar a aplicação backend
 
