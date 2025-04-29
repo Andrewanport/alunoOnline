@@ -5,25 +5,29 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
+@Entity
+@Table(name = "professor")
+@Data
 @NoArgsConstructor
 @AllArgsConstructor
-@Data                               // setters e getters
-@Table(name = "professor")          // Nomeia a tabela no banco de dados = "professor"
-@Entity
 public class Professor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id_professor")
-    private Long idProfessor;
+    private Long id_Professor;
 
     @Column(name = "nome_professor")
-    private String nomeProfessor;
-
-    @Column(name = "email_professor")
-    private String emailProfessor;
+    private String nome_Professor;
 
     @Column(name = "cpf_professor")
-    private String cpfProfessor;
+    private String cpf_Professor;
 
+    @Column(name = "email_professor")
+    private String email_Professor;
 }
+
+
+

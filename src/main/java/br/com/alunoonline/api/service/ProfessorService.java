@@ -40,9 +40,9 @@ public class ProfessorService {
 
         Professor professorEdit = professorBancoDeDados.get();
 
-        professorEdit.setNomeProfessor(professor.getNomeProfessor());
-        professorEdit.setEmailProfessor(professor.getEmailProfessor());
-        professorEdit.setCpfProfessor(professor.getCpfProfessor());
+        professorEdit.setNome(professor.getNome());
+        professorEdit.setEmail(professor.getEmail());
+        professorEdit.setCpf(professor.getCpf());
 
         professorRepository.save(professorEdit);
 
