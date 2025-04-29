@@ -130,3 +130,36 @@ Body (JSON):
 ### Professor (ID: 14) deletado (DBeaver):
 ![{F9622A9B-414A-4073-A97B-5FC315DCC805}](https://github.com/user-attachments/assets/d24ec920-6394-4c40-b1dd-9623f68d4b9e)
 
+## 📸 Registros de funcionamento (Disciplina)
+
+### Criar Disciplina (Insomnia):
+![{0BB7DD9A-5548-4935-8200-DBE07A6DA162}](https://github.com/user-attachments/assets/3d0babb0-9eed-4abf-84cc-0590929d59f4)
+
+### Disciplina criada (DBeaver):
+![Imagem do WhatsApp de 2025-04-29 à(s) 15 54 47_7f3d429b](https://github.com/user-attachments/assets/d11b3285-8b65-45d2-abde-0be98fb24275) 
+
+### Listar Disciplinas (Insomnia):
+
+![Imagem do WhatsApp de 2025-04-29 à(s) 16 03 08_3813424a](https://github.com/user-attachments/assets/068c370a-9f53-477d-8c47-8d7f676996f4)
+
+### Buscar Disciplina por ID (Insomnia):
+
+![Imagem do WhatsApp de 2025-04-29 à(s) 16 05 22_0dbca31b](https://github.com/user-attachments/assets/25215016-4c88-4379-8094-d6083be37805)
+
+### Buscar Disciplina por ID (DBeaver):
+
+![{E605D930-12E2-4516-BA15-3DE5FF42FF7E}](https://github.com/user-attachments/assets/835931f7-027a-48e1-9ff3-d7865ffa7709)
+
+### Atualizar Disciplina por ID (Insomnia):
+
+![{AAE46CC3-7AF2-4A82-9895-79EC6EA0FE89}](https://github.com/user-attachments/assets/a18a21ed-9507-470b-b83e-6879c3b4af07)
+
+### Disciplina atualizada por ID (DBeaver):
+
+![{4CCB1E9D-3939-4835-97AE-23ADDFD7E2F9}](https://github.com/user-attachments/assets/f0d5b8a0-fc88-4e7d-942c-dc2b5d127c63)
+
+### Deletar Disciplina por ID (ID: 33) (Insomnia):
+![{89CDE471-AEF8-4982-9E1F-DE74043D6BB2}](https://github.com/user-attachments/assets/9ac19cdb-7c76-463f-9788-e712808df7a9)
+
+### Disciplina (ID: 25) deletado (DBeaver):
+![{5297C3C6-89D4-4E04-BA49-02FC65890FC5}](https://github.com/user-attachments/assets/703c1718-4abc-4a49-a3b3-3c7fda7d0911)
