@@ -57,34 +57,11 @@ Credenciais padrão (em application.properties):
 
 ---
 
-## 📨 Testando com Postman
-### Criar aluno
-
-POST http://localhost:8080/alunos
-
-Body (JSON):
-
-{
-  "nome": "André",
-  "cpf": "111.111.111-11",
-  "email": "andre@gmail.com"
-}
-
----
-
 ## Status do projeto
 ### 🚧 Em desenvolvimento:
-
-✅ Criar aluno (POST)
-
-✅ Listagem de todos alunos (GET)
-
-✅ Busca de alunos por ID (GET)
-
-✅ Excluir aluno por ID (DELETE)
-
-⏹ Atualização parcial (PATCH)
-
+✅ CRUD Aluno
+✅ CRUD Professor
+✅ CRUD Disciplina
 ---
 
 ## 📸 Registros de funcionamento (Aluno)
