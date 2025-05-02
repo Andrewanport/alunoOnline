@@ -9,20 +9,16 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Data
 @Entity
-@Table(name = "disciplina")
+@Table(name = "disciplinas")
 public class Disciplina {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-
-    @Column(name = "nome_disciplina") // nome real da coluna no banco
-    private String nome;
-
-    @Column(name = "carga_horaria")
-    private Integer cargaHoraria;
-
+    private String nomeDisciplina;
+    private Integer cargaHorariaDisciplina;
     @ManyToOne
-    @JoinColumn(name = "professor_id") // chave estrangeira para professor
-    private Professor professor;
+    @JoinColumn(name = "id_Professor")
+    private Professor professorDisciplina;
+
 }

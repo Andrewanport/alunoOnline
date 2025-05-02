@@ -28,22 +28,22 @@ public class ProfessorController {
         return professorService.listarTodosProfessores();
     }
 
-    @GetMapping("/{idProfessor}")
+    @GetMapping("/{id}")
     @ResponseStatus(HttpStatus.OK)
-    public Optional<Professor> listarProfessoresPorId(@PathVariable Long idProfessor){
-        return professorService.listarProfessorPorId(idProfessor);
+    public Optional<Professor> listarProfessoresPorId(@PathVariable Long id){
+        return professorService.listarProfessorPorId(id);
     }
 
-    @DeleteMapping("/{idProfessor}")
+    @DeleteMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void deletarProfessorPorId(@PathVariable Long idProfessor){
-        professorService.deletarProfessorPorId(idProfessor);
+    public void deletarProfessorPorId(@PathVariable Long id){
+        professorService.deletarProfessorPorId(id);
     }
 
-    @PutMapping("/{idProfessor}")
+    @PutMapping("/{id}")
     @ResponseStatus(HttpStatus.NO_CONTENT)
-    public void atualizarProfessor(@PathVariable Long idProfessor, @RequestBody Professor professor){
-        professorService.atualizarProfessor(idProfessor, professor);
+    public void atualizarProfessor(@PathVariable Long id, @RequestBody Professor professor){
+        professorService.atualizarProfessor(id, professor);
     }
 
 }

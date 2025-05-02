@@ -16,17 +16,15 @@ public class Professor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id_professor")
-    private Long id_Professor;
 
-    @Column(name = "nome_professor")
-    private String nome_Professor;
+    private Long idProfessor;
 
-    @Column(name = "cpf_professor")
-    private String cpf_Professor;
+    private String nomeProfessor;
 
-    @Column(name = "email_professor")
-    private String email_Professor;
+    private String cpfProfessor;
+
+    private String emailProfessor;
+
 }
 
 

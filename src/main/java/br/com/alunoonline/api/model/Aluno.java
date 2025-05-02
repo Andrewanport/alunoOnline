@@ -17,7 +17,6 @@ public class Aluno {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
 
-    // Atributos
     private Long id;
 
     private String nome;
