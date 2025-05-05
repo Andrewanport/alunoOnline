@@ -5,8 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 @Entity
 @Table(name = "professor")
 @Data
@@ -16,14 +14,10 @@ public class Professor {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-
-    private Long idProfessor;
-
-    private String nomeProfessor;
-
-    private String cpfProfessor;
-
-    private String emailProfessor;
+    private Long id;
+    private String nome;
+    private String cpf;
+    private String email;
 
 }
 

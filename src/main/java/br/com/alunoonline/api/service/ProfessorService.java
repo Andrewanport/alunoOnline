@@ -39,9 +39,9 @@ public class ProfessorService {
         }
 
         Professor professorParaEditar = professorDoBanco.get();
-        professorParaEditar.setNomeProfessor(professor.getNomeProfessor());
-        professorParaEditar.setEmailProfessor(professor.getEmailProfessor());
-        professorParaEditar.setCpfProfessor(professor.getCpfProfessor());
+        professorParaEditar.setNome(professor.getNome());
+        professorParaEditar.setEmail(professor.getEmail());
+        professorParaEditar.setCpf(professor.getCpf());
 
         professorRepository.save(professorParaEditar);
     }

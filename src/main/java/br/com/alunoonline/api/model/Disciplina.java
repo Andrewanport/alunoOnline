@@ -14,11 +14,13 @@ public class Disciplina {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @Column(name = "id_disciplina")
     private Long id;
-    private String nomeDisciplina;
-    private Integer cargaHorariaDisciplina;
+    @Column(name = "nome_disciplina")
+    private String nome;
+    @Column(name = "carga_horaria_disciplina")
+    private Integer cargaHoraria;
     @ManyToOne
-    @JoinColumn(name = "id_Professor")
-    private Professor professorDisciplina;
-
+    @JoinColumn(name = "professor_id")
+    private Professor professor;
 }
