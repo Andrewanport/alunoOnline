@@ -27,14 +27,14 @@ public class MatriculaAlunoService {
                                 new ResponseStatusException(HttpStatus.NOT_FOUND,
                                         "Matricula Aluno não encontrada"));
 
-        // Só vai deixar trancar, se o status ATUAL for MATRICULADO
+        // Só pode deixar trancar se o status ATUAL for "MATRICULADO"
         if (matriculaAluno.getStatus()
                 .equals(MatriculaAlunoStatusEnum.MATRICULADO)) {
             matriculaAluno.setStatus(MatriculaAlunoStatusEnum.TRANCADO);
             matriculaAlunoRepository.save(matriculaAluno);
         } else {
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
-                    "Só é possível trancar com o status MATRICULADO");
+                    "Só é possível trancar aluno com o status: MATRICULADO");
 
         }
 
