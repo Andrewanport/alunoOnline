@@ -129,3 +129,9 @@ Credenciais padrão (em application.properties):
 ![{89CDE471-AEF8-4982-9E1F-DE74043D6BB2}](https://github.com/user-attachments/assets/9ac19cdb-7c76-463f-9788-e712808df7a9)
 ### Disciplina (ID: 25) deletado (DBeaver):
 ![{5297C3C6-89D4-4E04-BA49-02FC65890FC5}](https://github.com/user-attachments/assets/703c1718-4abc-4a49-a3b3-3c7fda7d0911)
+
+## 📸 Registros de funcionamento (Matrícula)
+### Criar Matrícula (Insomnia):
+![{BB5BCDBC-57CE-4F1A-90F4-6F96E9AB8601}](https://github.com/user-attachments/assets/53de24d6-0b5b-499f-aeac-b7639265aefc)
+### Matrícula criada (DBeaver):
+![{A8A5E679-2B2C-4196-B89B-535A348A20A7}](https://github.com/user-attachments/assets/3df8cff7-52cb-4bab-a91a-fe2efac2b4cc)
