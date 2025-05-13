@@ -135,3 +135,8 @@ Credenciais padrão (em application.properties):
 ![{BB5BCDBC-57CE-4F1A-90F4-6F96E9AB8601}](https://github.com/user-attachments/assets/53de24d6-0b5b-499f-aeac-b7639265aefc)
 ### Matrícula criada (DBeaver):
 ![{A8A5E679-2B2C-4196-B89B-535A348A20A7}](https://github.com/user-attachments/assets/3df8cff7-52cb-4bab-a91a-fe2efac2b4cc)
+
+## 📸 Registros de funcionamento (Swagger)
+![{0D7182E1-FCD1-4120-8761-077CCB697949}](https://github.com/user-attachments/assets/feb41070-c16f-4935-b7a9-78ac7954e4a5)
+![{F6C3D184-4882-4292-9DB4-2A9DCA508D30}](https://github.com/user-attachments/assets/44a75555-51cf-4210-b25a-b760972d9b21)
+![{462742DD-9D32-4F4A-8636-D056A2B302F0}](https://github.com/user-attachments/assets/01624513-86bf-43c7-80b7-7e9c48af48a5)
