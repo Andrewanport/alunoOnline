@@ -28,7 +28,7 @@ O **Aluno Online** é uma API RESTful voltada para o gerenciamento de alunos, co
 - JDK 17 (Corretto ou outro)
 - PostgreSQL rodando localmente
 - IDE (IntelliJ, VS Code, Eclipse)
-- Postman (para testar)
+- Postman/Insomnia (para testar)
 
 ---
 
@@ -37,12 +37,6 @@ O **Aluno Online** é uma API RESTful voltada para o gerenciamento de alunos, co
 1. Abra o projeto
 2. Vá até a classe `AlunoOnlineApplication.java`
 3. Clique no botão verde ▶️ ou use `Run`
-
----
-
-### ▶️ Executar via terminal (se configurado):
-
-./mvnw spring-boot:run
 
 ---
 
@@ -55,13 +49,6 @@ Credenciais padrão (em application.properties):
 ### spring.datasource.username=postgres
 ### spring.datasource.password=1234
 
----
-
-## Status do projeto
-### 🚧 Em desenvolvimento:
-✅ CRUD Aluno
-✅ CRUD Professor
-✅ CRUD Disciplina
 ---
 
 ## 📸 Registros de funcionamento (Aluno)
