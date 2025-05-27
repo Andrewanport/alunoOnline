@@ -126,6 +126,8 @@ Credenciais padrão (em application.properties):
 ![{C44B7F70-082F-43A4-A29F-6E09F596B8AD}](https://github.com/user-attachments/assets/15512f27-75bb-4420-a35e-cd1f968a6761)
 ### Trancar Matrícula (DBeaver):
 ![{27393538-8A29-48DB-9C5F-8B14C37B6640}](https://github.com/user-attachments/assets/457a0f53-9cd1-4b7f-991d-d8cf3422f936)
+### Emitir Histórico (Insomnia):
+![{FE20019D-1190-40ED-B70C-DC5DB1AD59F1}](https://github.com/user-attachments/assets/3f1523b5-db12-4c01-84d0-6b43a0b21eb7)
 
 ## 📸 Registros de funcionamento (Swagger)
 ![{0D7182E1-FCD1-4120-8761-077CCB697949}](https://github.com/user-attachments/assets/feb41070-c16f-4935-b7a9-78ac7954e4a5)
