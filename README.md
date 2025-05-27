@@ -28,7 +28,7 @@ O **Aluno Online** é uma API RESTful voltada para o gerenciamento de alunos, co
 - JDK 17 (Corretto ou outro)
 - PostgreSQL rodando localmente
 - IDE (IntelliJ, VS Code, Eclipse)
-- Postman (para testar)
+- Postman/Insomnia (para testar)
 
 ---
 
