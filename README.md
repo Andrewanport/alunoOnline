@@ -51,13 +51,6 @@ Credenciais padrão (em application.properties):
 
 ---
 
-## Status do projeto
-### 🚧 Em desenvolvimento:
-✅ CRUD Aluno
-✅ CRUD Professor
-✅ CRUD Disciplina
----
-
 ## 📸 Registros de funcionamento (Aluno)
 ### Criar Aluno (Insomnia):
 ![{1C02B516-C1C8-4D39-9DBE-B319A83DCDA7}](https://github.com/user-attachments/assets/2a9ee4ed-7797-46e2-8575-818a82fc9bd2)
