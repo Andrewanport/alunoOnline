@@ -15,7 +15,7 @@ public class SwaggerConfig {
                 .info(new Info()
                         .title("API - Aluno Online")
                         .version("1.0")
-                        .description("Documentação da API do sistema Aluno Online")
+                        .description("API do sistema Aluno Online")
                         .contact(new Contact()
                                 .name("André Wn")
                                 .email("andrewanderleyporto@email.com")
