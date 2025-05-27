@@ -40,12 +40,6 @@ O **Aluno Online** é uma API RESTful voltada para o gerenciamento de alunos, co
 
 ---
 
-### ▶️ Executar via terminal (se configurado):
-
-./mvnw spring-boot:run
-
----
-
 ## 💾 Banco de dados
 Certifique-se de que o PostgreSQL está rodando e que o banco aluno_online foi criado.
 
