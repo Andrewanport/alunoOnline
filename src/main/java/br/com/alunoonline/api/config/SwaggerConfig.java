@@ -18,7 +18,7 @@ public class SwaggerConfig {
                         .description("Documentação da API do sistema Aluno Online")
                         .contact(new Contact()
                                 .name("André Wn")
-                                .email("andre@email.com")
-                                .url("https://github.com/seuUsuario")));
+                                .email("andrewanderleyporto@email.com")
+                                .url("https://github.com/Andrewanport")));
     }
 }
