@@ -29,7 +29,7 @@ public class MatriculaAluno {
 
     private Double nota2;
 
-    @Enumerated(EnumType.STRING)
+    @Enumerated(EnumType.STRING) // Salva a String correspondente ao enum.
     private MatriculaAlunoStatusEnum status;
 
 }
