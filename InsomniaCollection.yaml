@@ -415,7 +415,7 @@ collection:
     meta:
       id: fld_e9be2cc4bc0c4c6cbb078bbb04abde88
       created: 1747149430921
-      modified: 1747149430921
+      modified: 1748369519616
       sortKey: -1747149430921
     children:
       - url: "{{ _.baseURL }}/matriculas"
@@ -466,6 +466,55 @@ collection:
         headers:
           - name: User-Agent
             value: insomnia/11.0.2
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: "{{ _.baseURL }}/matriculas/atualizar-notas/2"
+        name: atualizarNota
+        meta:
+          id: req_060231b24ffb4ce6bb6ebc48051df83d
+          created: 1748370851696
+          modified: 1748371040831
+          isPrivate: false
+          sortKey: -1748350357915
+        method: PATCH
+        body:
+          mimeType: application/json
+          text: |
+            {
+              "nota1": 8.5,
+              "nota2": 9.0
+            }
+        headers:
+          - name: Content-Type
+            value: application/json
+          - name: User-Agent
+            value: insomnia/11.1.0
+        settings:
+          renderRequestBody: true
+          encodeUrl: true
+          followRedirects: global
+          cookies:
+            send: true
+            store: true
+          rebuildPath: true
+      - url: "{{ _.baseURL }}/matriculas/emitir-historico/3"
+        name: emitirHistorico
+        meta:
+          id: req_ff250158cb1a41b4b6812d74518b8d87
+          created: 1748371383298
+          modified: 1748371502434
+          isPrivate: false
+          sortKey: -1748350358015
+        method: GET
+        headers:
+          - name: User-Agent
+            value: insomnia/11.1.0
         settings:
           renderRequestBody: true
           encodeUrl: true
