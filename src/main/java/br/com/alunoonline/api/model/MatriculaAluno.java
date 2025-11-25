@@ -2,13 +2,12 @@ package br.com.alunoonline.api.model;
 
 import br.com.alunoonline.api.enums.MatriculaAlunoStatusEnum;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @AllArgsConstructor
 @NoArgsConstructor
-@Data
+@Getter @Setter
+@EqualsAndHashCode(of = "id")
 @Table(name = "matricula_aluno")
 @Entity
 public class MatriculaAluno {
@@ -17,19 +16,18 @@ public class MatriculaAluno {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "aluno_id")
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "aluno_id", nullable = false)
     private Aluno aluno;
 
-    @ManyToOne
-    @JoinColumn(name = "disciplina_id")
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "disciplina_id", nullable = false)
     private Disciplina disciplina;
 
     private Double nota1;
-
     private Double nota2;
 
-    @Enumerated(EnumType.STRING) // Salva a String correspondente ao enum.
+    @Enumerated(EnumType.STRING)
+    @Column(nullable = false, length = 30)
     private MatriculaAlunoStatusEnum status;
-
 }

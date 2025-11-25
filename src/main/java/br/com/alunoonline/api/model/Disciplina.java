@@ -1,26 +1,34 @@
 package br.com.alunoonline.api.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
+
+import java.util.List;
 
 @NoArgsConstructor
 @AllArgsConstructor
-@Data
+@Getter @Setter
+@EqualsAndHashCode(of = "id")
 @Entity
 @Table(name = "disciplinas")
 public class Disciplina {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "id")
     private Long id;
-    @Column(name = "nome")
+
+    @Column(nullable = false, length = 120)
     private String nome;
-    @Column(name = "carga_horaria")
+
+    @Column(name = "carga_horaria", nullable = false)
     private Integer cargaHoraria;
-    @ManyToOne
-    @JoinColumn(name = "professor_id")
+
+    @ManyToOne(optional = false)
+    @JoinColumn(name = "professor_id", nullable = false)
     private Professor professor;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "disciplina")
+    private List<MatriculaAluno> matriculas;
 }
