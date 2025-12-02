@@ -1,6 +1,7 @@
 package br.com.alunoonline.api.controller;
 
 import br.com.alunoonline.api.dto.DadosCadastroUsuarioDTO;
+import br.com.alunoonline.api.enums.UsuarioRole;
 import br.com.alunoonline.api.model.Usuario;
 import br.com.alunoonline.api.repository.UsuarioRepository;
 import jakarta.validation.Valid;
@@ -31,7 +32,15 @@ public class UsuarioController {
         user.setLogin(dto.login());
         user.setSenha(encoder.encode(dto.senha()));
 
+        // Se vier role no DTO, usa. Senão, define USER como padrão.
+        if (dto.role() != null) {
+            user.setRole(dto.role());
+        } else {
+            user.setRole(UsuarioRole.USER);
+        }
+
         repo.save(user);
         return ResponseEntity.ok("Usuário criado");
     }
+
 }

@@ -20,7 +20,7 @@ public class TokenService {
 
         return JWT.create()
                 .withIssuer("aluno-online")
-                .withSubject(usuario.getLogin()) // use o campo que seu UsuarioRepository busca
+                .withSubject(usuario.getLogin())
                 .withExpiresAt(Instant.now().plus(2, ChronoUnit.HOURS))
                 .sign(alg);
     }
