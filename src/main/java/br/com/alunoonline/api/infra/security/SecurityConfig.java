@@ -35,12 +35,12 @@ public class SecurityConfig {
                         // SWAGGER LIBERADO
                         .requestMatchers("/swagger-ui/**", "/v3/api-docs/**").permitAll()
 
-                        // ROTAS LIBERADAS
-                        .requestMatchers("/usuarios/**").permitAll()
-                        .requestMatchers("/alunos/**").permitAll()
-                        .requestMatchers("/professores/**").permitAll()
-                        .requestMatchers("/disciplinas/**").permitAll()
-                        .requestMatchers("/matriculas/**").permitAll()
+                        // ROTAS LIBERADAS (PARA TESTE)
+                        //.requestMatchers("/usuarios/**").permitAll()
+                        //.requestMatchers("/alunos/**").permitAll()
+                        //.requestMatchers("/professores/**").permitAll()
+                        //.requestMatchers("/disciplinas/**").permitAll()
+                        //.requestMatchers("/matriculas/**").permitAll()
 
                         // QUALQUER OUTRA REQUISIÇÃO → PRECISA DE TOKEN
                         .anyRequest().authenticated()
