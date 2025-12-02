@@ -29,29 +29,20 @@ public class SecurityConfig {
                         sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
                 .authorizeHttpRequests(auth -> auth
-
-                        // 🔓 LOGIN LIBERADO
                         .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
-
-                        // 🔓 CADASTRO DE USUÁRIO LIBERADO (se quiser)
                         .requestMatchers(HttpMethod.POST, "/usuarios").permitAll()
-
-                        // 🔓 SWAGGER LIBERADO
                         .requestMatchers(
                                 "/swagger-ui/**",
                                 "/v3/api-docs/**"
                         ).permitAll()
-
-                        // 🔒 QUALQUER OUTRA REQUISIÇÃO PRECISA DE TOKEN
                         .anyRequest().authenticated()
                 )
-                // Nosso filtro JWT
                 .addFilterBefore(securityFilter, UsernamePasswordAuthenticationFilter.class)
                 .build();
     }
 
     @Bean
-    public AuthenticationManager authenticationManager(AuthenticationConfiguration config) throws Exception {
-        return config.getAuthenticationManager();
+    public AuthenticationManager authenticationManager(AuthenticationConfiguration configuration) throws Exception {
+        return configuration.getAuthenticationManager();
     }
 }

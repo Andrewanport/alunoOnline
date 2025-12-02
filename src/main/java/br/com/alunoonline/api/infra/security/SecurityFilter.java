@@ -1,29 +1,28 @@
 package br.com.alunoonline.api.infra.security;
 
-import br.com.alunoonline.api.model.Usuario;
-import br.com.alunoonline.api.repository.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
 import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.stereotype.Component;
 import org.springframework.web.filter.OncePerRequestFilter;
 
 import java.io.IOException;
-import java.util.Optional;
 
 @Component
 public class SecurityFilter extends OncePerRequestFilter {
 
     private final TokenService tokenService;
-    private final UsuarioRepository usuarioRepository;
+    private final UserDetailsService userDetailsService;
 
     public SecurityFilter(TokenService tokenService,
-                          UsuarioRepository usuarioRepository) {
+                          UserDetailsService userDetailsService) {
         this.tokenService = tokenService;
-        this.usuarioRepository = usuarioRepository;
+        this.userDetailsService = userDetailsService;
     }
 
     @Override
@@ -35,24 +34,19 @@ public class SecurityFilter extends OncePerRequestFilter {
         String token = recuperarToken(request);
 
         if (token != null) {
-            String login = tokenService.getSubject(token); // pega o "sub" do JWT
+            String login = tokenService.getSubject(token); // subject = login
 
-            Optional<Usuario> optionalUsuario = usuarioRepository.findByLogin(login);
-            if (optionalUsuario.isPresent()) {
-                Usuario usuario = optionalUsuario.get();
+            UserDetails userDetails = userDetailsService.loadUserByUsername(login);
 
-                // Autentica o usuário manualmente no contexto
-                var authentication = new UsernamePasswordAuthenticationToken(
-                        usuario,
-                        null,
-                        usuario.getAuthorities() // se Usuario não tiver authorities, pode usar List.of()
-                );
+            var authentication = new UsernamePasswordAuthenticationToken(
+                    userDetails,
+                    null,
+                    userDetails.getAuthorities()
+            );
 
-                SecurityContextHolder.getContext().setAuthentication(authentication);
-            }
+            SecurityContextHolder.getContext().setAuthentication(authentication);
         }
 
-        // Sempre deixar seguir
         filterChain.doFilter(request, response);
     }
 
