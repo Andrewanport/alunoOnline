@@ -24,16 +24,22 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         return http
+                // como usamos JWT, CSRF deve estar desabilitado
                 .csrf(csrf -> csrf.disable())
+                // sem sessão de usuário no servidor
                 .sessionManagement(sess ->
                         sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS)
                 )
                 .authorizeHttpRequests(auth -> auth
+                        // login liberado
                         .requestMatchers(HttpMethod.POST, "/auth/login").permitAll()
+                        // criação de usuário liberada
                         .requestMatchers(HttpMethod.POST, "/usuarios").permitAll()
+                        // swagger / docs liberados
                         .requestMatchers(
                                 "/swagger-ui/**",
-                                "/v3/api-docs/**"
+                                "/v3/api-docs/**",
+                                "/swagger-ui.html"
                         ).permitAll()
                         .anyRequest().authenticated()
                 )

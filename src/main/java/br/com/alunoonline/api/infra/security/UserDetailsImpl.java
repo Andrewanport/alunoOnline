@@ -1,8 +1,8 @@
 package br.com.alunoonline.api.infra.security;
 
-import br.com.alunoonline.api.enums.UsuarioRole;
 import br.com.alunoonline.api.model.Usuario;
 import org.springframework.security.core.GrantedAuthority;
+import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
 import java.util.Collection;
@@ -18,11 +18,8 @@ public class UserDetailsImpl implements UserDetails {
 
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        UsuarioRole role = usuario.getRole();
-        if (role == null) {
-            return List.of();
-        }
-        return List.of(role);
+        String role = "ROLE_" + usuario.getRole();
+        return List.of(new SimpleGrantedAuthority(role));
     }
 
     @Override
